@@ -35,3 +35,21 @@
     padding: 10px 20px;
 
 }
+
+.randomCardsContainer{
+   display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 6 columns */
+  gap: 15px; /* space between cards */
+  padding: 10px;
+}
+
+.randomwebCard{
+   border: 5px solid black;
+  border-color:#202122;
+  background-color: #a2a9b1;
+   width: 250px;
+    padding: 20px; 
+    border-radius:20px;
+  }
+
+   
