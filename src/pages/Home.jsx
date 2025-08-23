@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './Home.css';
-import './index.css';
+import '../index.css';
+import { Link } from "react-router-dom"
 
 function Home() {
   const apiBaseUrl = "https://en.wikipedia.org/w/api.php";
@@ -33,7 +34,9 @@ function Home() {
       <div className="Header">
         <h1>Throw-Article</h1>
         <ol>
+          <Link to = "/loginpage"className="login-link">
           <li>login/logout</li>
+          </Link>
           <li>settings</li>
           <li>chats</li>
           <li>about</li>
